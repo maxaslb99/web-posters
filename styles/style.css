@@ -279,7 +279,102 @@ li{
 font-size: 30px;
   }
 }
+@media all and (min-width: 1440px) {
+    h1 {
+      font-size: 50px;
+    }
+    .cards-1 {
+      margin-top: -155px;
+      margin-right: -50px;
+
+      transform: rotate(5deg);
+    }
+    .text-2 {
+      position: absolute;
+
+      margin-top:  300px;
+
+      transform: rotate(0deg);
+    }
+    .text-2 p{
+      font-size: 25px;
+    }
+    .text-1 p{
+      font-size: 25px;
+    }
+    .header-1 {
+    display: none;
+    }
+    .header-2 {
+      margin-left: 140px;
+    }
+    .text-1 {
+    margin-top: -40px;
+      margin-left: 600px;
+
+      transform: rotate(30deg);
+    }
+
+    .date {
+      position: relative;
+      z-index: 1;
+
+      width: 2400px;
+      margin-top: -20px;
+      margin-left: -100px;
+
+      transform: rotate(13deg);
+    }
+    .cards-2 {
+      position: absolute;
+      z-index: 0;
+
+      width: 400px;
+      margin-top: -850px;
+      margin-left: 50px;
+
+      transform: rotate(100deg);
+    }
+    .cards-3 {
+      width: 550px;
+      margin-top: 20px;
+      margin-left: 920px;
+
+      transform: rotate(-10deg);
+    }
+    .text {
+      position: absolute;
+
+      width: 320px;
+      margin-top: 320px;
+      margin-left: 330px;
+
+      font-size: 25px;
+    }
+    .buttom {
+      position: absolute;
+
+      margin-top: 200px;
+      margin-left: 260px;
+    }
+    .more-info {
+      margin-top: -180px;
+    }
+    .more-info ul {
+      flex-direction: row;
+
+      justify-content: space-around;
+      align-items: baseline;
+    }
+    .more-info img {
+      width: 150px;
+      height: auto;
+    }
+}
 @media all and (min-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
   .cards-1 {
     margin-top: -155px;
     margin-right: -50px;
@@ -289,23 +384,37 @@ font-size: 30px;
   .text-2 {
     position: absolute;
 
-    margin-top:  300px;
+    margin-top:  200px;
 
     transform: rotate(0deg);
+  }
+  .text-2 p{
+    width: 300px;
+
+    font-size: 22px;
   }
   .header-1 {
   display: none;
   }
+
   .header-2 {
     margin-left: 140px;
   }
   .text-1 {
-  margin-top: -40px;
+    width: 300px;
+    margin-top: -40px;
     margin-left: 600px;
 
     transform: rotate(30deg);
   }
+  .text-1 p{
+    width: 300px;
 
+    font-size: 22px;
+  }
+  .text-1 H1{
+    margin-left: -120px;
+  }
   .date {
     position: relative;
     z-index: 1;
@@ -314,39 +423,48 @@ font-size: 30px;
     margin-top: -20px;
     margin-left: -100px;
 
-    transform: rotate(13deg);
+    transform: rotate(7deg);
   }
   .cards-2 {
     position: absolute;
     z-index: 0;
 
-    width: 400px;
-    margin-top: -850px;
+    width: 300px;
+    margin-top: -650px;
     margin-left: 50px;
 
     transform: rotate(100deg);
   }
   .cards-3 {
-    width: 550px;
-    margin-top: 20px;
-    margin-left: 920px;
+    width: 390px;
+    margin-top: -100px;
+    margin-left: 690px;
 
     transform: rotate(-10deg);
   }
-  .text {
-    position: absolute;
+.text {
+  position: absolute;
 
-    margin-top: 320px;
-    margin-left: 150px;
-  }
+  width: 300px;
+  margin-top: 150px;
+  margin-left: 170px;
+
+  font-size: 25px;
+}
+
   .buttom {
     position: absolute;
 
-    margin-top: 200px;
-    margin-left: 260px;
+    width: 170px;
+    margin-top: 270px;
+    margin-left: 220px;
+    padding: 10px;
+  }
+  .buttom a {
+  font-size: 30px;
   }
   .more-info {
-    margin-top: -180px;
+    margin-top: -120px;
   }
   .more-info ul {
     flex-direction: row;
@@ -359,4 +477,98 @@ font-size: 30px;
     height: auto;
   }
 
+
+}
+@media all and (min-width: 1400px) {
+
+    h1 {
+    font-size: 70px;
+    }
+    .cards-1 {
+      margin-top: -155px;
+      margin-right: -50px;
+
+      transform: rotate(5deg);
+    }
+    .text-2 {
+      position: absolute;
+
+      margin-top:  300px;
+
+      transform: rotate(0deg);
+    }
+    .text-2 p{
+      font-size: 35px;
+    }
+    .text-1 p{
+      font-size: 35px;
+    }
+    .header-1 {
+    display: none;
+    }
+    .header-2 {
+      margin-left: 140px;
+    }
+    .text-1 {
+    margin-top: -40px;
+      margin-left: 600px;
+
+      transform: rotate(30deg);
+    }
+
+    .date {
+      position: relative;
+      z-index: 1;
+
+      width: 2400px;
+      margin-top: -20px;
+      margin-left: -100px;
+
+      transform: rotate(13deg);
+    }
+    .cards-2 {
+      position: absolute;
+      z-index: 0;
+
+      width: 400px;
+      margin-top: -850px;
+      margin-left: 50px;
+
+      transform: rotate(100deg);
+    }
+    .cards-3 {
+      width: 550px;
+      margin-top: 20px;
+      margin-left: 920px;
+
+      transform: rotate(-10deg);
+    }
+    .text {
+      position: absolute;
+
+      width: 400px;
+      margin-top: 320px;
+      margin-left: 200px;
+
+      font-size: 35px;
+    }
+    .buttom {
+      position: absolute;
+
+      margin-top: 200px;
+      margin-left: 260px;
+    }
+    .more-info {
+      margin-top: -180px;
+    }
+    .more-info ul {
+      flex-direction: row;
+
+      justify-content: space-around;
+      align-items: baseline;
+    }
+    .more-info img {
+      width: 150px;
+      height: auto;
+    }
 }
