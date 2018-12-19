@@ -2,13 +2,10 @@
   font-family: "Karmina";
 
   src: url("../fonts/Karmina.woff") format("woff");
-  src: url("../fonts/Karmina.ttf") format("ttf");
-  src: url("../fonts/Karmina.otf") format("otf");
 }
 @font-face {
   font-family: "Futura";
 
   src: url("../fonts/Futura.woff") format("woff");
   src: url("../fonts/Futura.ttf") format("ttf");
-  src: url("../fonts/Futura.otf") format("otf");
 }
