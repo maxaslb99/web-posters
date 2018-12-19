@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+}
+.main {
+  overflow-x: hidden;
+}
+li {
+  list-style-type: none;
+
+  color: white;
+
+  font-family: 'Futura';
+}
+
+li span {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+
+  color: #FFF;
+
+  font-family: 'Karmina';
+  font-size: 45px;
+}
+
+h2 {
+  padding: 15px;
+
+  color: #F0047F;
+
+  font-family: 'Karmina';
+  font-size: 40px;
+}
+.header-1{
+  overflow-x: hidden;
+
+  margin-left: 85px;
+}
+.header-2{
+  overflow-x: hidden;
+
+  margin-left: -145px;
+}
+p {
+  text-align: center;
+
+  color: #FFF;
+
+  font-family: 'Futura';
+  font-size: 15px;
+}
+
+img.cards-1 {
+  margin-bottom: 18px;
+}
+
+.text-2 {
+position: relative;
+
+transform: rotate(13deg);
+}
+
+.text-2 p {
+  width: 240px;
+  margin-left: 13%;
+
+  font-size: 15px;
+  font-size: 15px;
+}
+
+.date {
+  width: 683px;
+height: 18px;
+margin-top: 90px;
+margin-bottom: 45px;
+margin-left: -32px;
+
+transform: rotate(12deg);
+
+background: #B4EC51;
+}
+.date p {
+    padding: 2px;
+
+    color: black;
+
+    align-items: flex-start;
+}
+.text-1{
+  position: relative;
+  left: 15%;
+
+  width: 220px;
+
+  transform: rotate(-13deg);
+}
+
+.cards-2 {
+  margin-top: 20px;
+  margin-right: 160px;
+  margin-left: -25px;
+
+  transform: rotate(20deg);
+}
+.text {
+  width: 200px;
+  margin-top: -105px;
+  margin-left: 20vw;
+
+  align-items: center;
+}
+.buttom {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 35%;
+  padding: 5px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+.buttom a {
+  padding-top: 5px;
+
+  text-decoration: none;
+
+  color: #000;
+
+  font-family: 'Karmina';
+}
+.cards-3{
+  margin-top: -61px;
+margin-left: 119px;
+
+transform: rotate(-71deg)
+}
+.place {
+  margin-top: -197px;
+  margin-left: 10%;
+
+  transform: rotate(-57deg);
+}
+li{
+  padding-bottom: 20px;
+}
+.more-info{
+  margin-top: -35px;
+}
+.more-info ul {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more-info img {
+    width: 200px;
+    height: 230px;
+    margin-left: 20%;
+}
+
+@media all and (min-width: 320px) {
+
+}
