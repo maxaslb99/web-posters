@@ -1,11 +1,7 @@
 @font-face {
   font-family: "Karmina";
 
-  src: url("../fonts/Karmina.woff") format("woff");
+  src: url("../font/Karmina.woff") format("woff");
 }
-@font-face {
-  font-family: "Futura";
 
-  src: url("../fonts/Futura.woff") format("woff");
-  src: url("../fonts/Futura.ttf") format("ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
