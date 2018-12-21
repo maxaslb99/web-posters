@@ -3,6 +3,7 @@ body {
 
   font-size: 13px;
 }
+
 * {
   transition: all .3s ease;
 }
@@ -17,6 +18,8 @@ li {
   list-style-type: none;
 
   color: white;
+
+  font-family: 'PT Sans';
 }
 
 li span {
@@ -24,8 +27,6 @@ li span {
 }
 
 h1 {
-  margin-bottom: 0.5%;
-
   text-align: center;
 
   color: #FFF;
@@ -46,6 +47,8 @@ p {
   text-align: center;
 
   color: #FFF;
+
+  font-family: 'PT Sans';
 }
 
 .cards-1 {
@@ -174,7 +177,7 @@ footer img {
   }
 
   .date {
-    height: 35px;
+    height: 32px;
     margin-top: 110px;
     margin-bottom: 80px;
   }
@@ -497,7 +500,7 @@ footer img {
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 
   footer {
