@@ -3,6 +3,9 @@ body {
 
   font-size: 13px;
 }
+* {
+  transition: all .3s ease;
+}
 
 .main {
   overflow: hidden;
@@ -21,6 +24,8 @@ li span {
 }
 
 h1 {
+  margin-bottom: 5%;
+
   text-align: center;
 
   color: #FFF;
