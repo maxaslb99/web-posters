@@ -14,8 +14,6 @@ li {
   list-style-type: none;
 
   color: white;
-
-  font-family: 'Roboto', sans-serif;
 }
 
 li span {
@@ -43,8 +41,6 @@ p {
   text-align: center;
 
   color: #FFF;
-
-  font-family: 'Roboto', sans-serif;
 }
 
 .cards-1 {
@@ -52,9 +48,9 @@ p {
 }
 
 .text-2 {
-position: relative;
+  position: relative;
 
-transform: rotate(13deg);
+  transform: rotate(13deg);
 }
 
 .text-2 p {
@@ -96,6 +92,7 @@ transform: rotate(13deg);
 
   transform: rotate(20deg);
 }
+
 .text {
   width: 200px;
   margin-top: -105px;
@@ -103,6 +100,7 @@ transform: rotate(13deg);
 
   align-items: center;
 }
+
 .buttom {
   width: 100px;
   margin-top: 10px;
@@ -113,8 +111,8 @@ transform: rotate(13deg);
 
   border-radius: 5px;
   background-color: #fff;
-
 }
+
 .buttom a {
   text-decoration: none;
 
@@ -122,11 +120,12 @@ transform: rotate(13deg);
 
   font-family: 'Karmina';
 }
-.cards-3 {
-margin-top: -61px;
-margin-left: 119px;
 
-transform: rotate(-71deg)
+.cards-3 {
+  margin-top: -61px;
+  margin-left: 119px;
+
+  transform: rotate(-71deg)
 }
 
 footer {
@@ -198,6 +197,7 @@ footer img {
   .buttom a {
   font-size: 3em;
   }
+
   li {
       font-size: 2em;
   }
@@ -205,16 +205,16 @@ footer img {
 @media all and (min-width: 760px) {
   .date {
     height: 55px;
-      width: 1200px;
-      margin-top: 125px;
+    width: 1200px;
+    margin-top: 125px;
     margin-bottom: 100px;
   }
 
   .date p {
     width: 1600px;
     padding: 15px;
-
   }
+
   h1 {
     font-size: 5em;
   }
@@ -223,8 +223,6 @@ footer img {
     width: 450px;
     margin-left: 170px;
   }
-
-
 
   .text-1 {
     width: 400px;
@@ -403,5 +401,101 @@ footer img {
   footer img {
     width: 150px;
     height: auto;
+  }
+}
+@media all and (min-width: 1440px){
+  h1 {
+    font-size: 6em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  footer {
+    margin-top: -10%;
+  }
+
+  .for-flex {
+    margin-top: 5%;
+  }
+
+  .date {
+    margin-top: -21%;
+    margin-left: 30%;
+    transform: rotate(23deg);
+    width: 2700px;
+    height: 40px;
+    height: 52px;
+  }
+
+  .date p {
+    padding: 16px;
+    font-size: 1.9em;
+  }
+
+  .cards-1 {
+    width: 50%;
+    margin-left: 55%;
+  }
+
+  .cards-2 {
+    transform: rotate(95deg);
+    margin-top: -40%;
+    width: 23%;
+    height: 0%;
+    margin-left: 3%;
+  }
+
+  .cards-3 {
+    width: 29%;
+    height: 0%;
+    transform: rotate(-25deg);
+    margin-top: 2%;
+  }
+
+  .text-1 {
+    transform: rotate(-25deg);
+    margin-top: -15%;
+    width: 360px;
+  }
+
+  .text-1 p {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .text-2 {
+    transform: rotate(-25deg);
+    margin-top: 32%;
+    margin-bottom: -26%;
+    margin-left: 2%;
+  }
+
+  .text-2 p {
+    margin-top: 3%;
+}
+
+  .buy {
+    margin-left: 30%;
+    margin-top: -14%;
+  }
+
+  .text {
+    width: 270px;
+    font-size: 1.5em;
+  }
+
+  .buttom {
+    height: 34px;
+  }
+
+  .buttom a {
+    font-size: 2.3em;
+  }
+
+  .header-2 {
+    width: 100%;
+    margin-left: 17%;
   }
 }
