@@ -403,7 +403,7 @@ footer img {
     height: auto;
   }
 }
-@media all and (min-width: 1440px){
+@media all and (min-width: 1420px){
   h1 {
     font-size: 6em;
   }
